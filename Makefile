@@ -95,7 +95,7 @@ endif
 
 .PHONY: update_txconfig
 update_txconfig:
-	curl -L https://rawgit.com/python-doc-ja/cpython-doc-catalog/catalog-$(BRANCH)/Doc/locales/.tx/config |\
+	curl -L https://raw.githubusercontent.com/python-doc-ja/cpython-doc-catalog/catalog-$(BRANCH)/Doc/locales/.tx/config |\
 		grep --invert-match '^file_filter = *' |\
 		sed -e 's/source_file = pot\/\(.*\)\.pot/trans.zh_TW = \1.po/' |\
 		sed -n 'w .tx/config'
