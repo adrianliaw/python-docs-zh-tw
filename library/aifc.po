@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2018, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.7\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 18:08+0800\n"
-"PO-Revision-Date: 2018-05-23 14:38+0000\n"
-"Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
-"Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
-"tw)\n"
-"Language: zh_TW\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"PO-Revision-Date: 2017-02-16 17:47+0000\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/python-doc/"
+"teams/5390/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/aifc.rst:2
@@ -224,29 +224,29 @@ msgid ""
 "given position.  This method can be called at any time before :meth:`close`."
 msgstr ""
 
-#: ../../library/aifc.rst:212
+#: ../../library/aifc.rst:213
 msgid ""
 "Return the current write position in the output file.  Useful in combination "
 "with :meth:`setmark`."
 msgstr ""
 
-#: ../../library/aifc.rst:218
+#: ../../library/aifc.rst:219
 msgid ""
 "Write data to the output file.  This method can only be called after the "
 "audio file parameters have been set."
 msgstr ""
 
-#: ../../library/aifc.rst:221 ../../library/aifc.rst:230
+#: ../../library/aifc.rst:222 ../../library/aifc.rst:231
 msgid "Any :term:`bytes-like object` is now accepted."
 msgstr ""
 
-#: ../../library/aifc.rst:227
+#: ../../library/aifc.rst:228
 msgid ""
 "Like :meth:`writeframes`, except that the header of the audio file is not "
 "updated."
 msgstr ""
 
-#: ../../library/aifc.rst:236
+#: ../../library/aifc.rst:238
 msgid ""
 "Close the AIFF file.  The header of the file is updated to reflect the "
 "actual size of the audio data. After calling this method, the object can no "

@@ -1,6 +1,11 @@
 [main]
 host = https://www.transifex.com
 
+[python-newest.0]
+trans.zh_TW = 0.po
+source_lang = en
+type = PO
+
 [python-newest.about]
 trans.zh_TW = about.po
 source_lang = en
@@ -73,6 +78,11 @@ type = PO
 
 [python-newest.c-api--bytes]
 trans.zh_TW = c-api/bytes.po
+source_lang = en
+type = PO
+
+[python-newest.c-api--call]
+trans.zh_TW = c-api/call.po
 source_lang = en
 type = PO
 
@@ -178,6 +188,11 @@ type = PO
 
 [python-newest.c-api--init]
 trans.zh_TW = c-api/init.po
+source_lang = en
+type = PO
+
+[python-newest.c-api--init_config]
+trans.zh_TW = c-api/init_config.po
 source_lang = en
 type = PO
 
@@ -338,6 +353,11 @@ type = PO
 
 [python-newest.distributing--index]
 trans.zh_TW = distributing/index.po
+source_lang = en
+type = PO
+
+[python-newest.distutils--_setuptools_disclaimer]
+trans.zh_TW = distutils/_setuptools_disclaimer.po
 source_lang = en
 type = PO
 
@@ -591,11 +611,6 @@ trans.zh_TW = library/__main__.po
 source_lang = en
 type = PO
 
-[python-newest.library--_dummy_thread]
-trans.zh_TW = library/_dummy_thread.po
-source_lang = en
-type = PO
-
 [python-newest.library--_thread]
 trans.zh_TW = library/_thread.po
 source_lang = en
@@ -641,6 +656,11 @@ trans.zh_TW = library/asynchat.po
 source_lang = en
 type = PO
 
+[python-newest.library--asyncio-api-index]
+trans.zh_TW = library/asyncio-api-index.po
+source_lang = en
+type = PO
+
 [python-newest.library--asyncio-dev]
 trans.zh_TW = library/asyncio-dev.po
 source_lang = en
@@ -651,8 +671,28 @@ trans.zh_TW = library/asyncio-eventloop.po
 source_lang = en
 type = PO
 
-[python-newest.library--asyncio-eventloops]
-trans.zh_TW = library/asyncio-eventloops.po
+[python-newest.library--asyncio-exceptions]
+trans.zh_TW = library/asyncio-exceptions.po
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-future]
+trans.zh_TW = library/asyncio-future.po
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-llapi-index]
+trans.zh_TW = library/asyncio-llapi-index.po
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-platforms]
+trans.zh_TW = library/asyncio-platforms.po
+source_lang = en
+type = PO
+
+[python-newest.library--asyncio-policy]
+trans.zh_TW = library/asyncio-policy.po
 source_lang = en
 type = PO
 
@@ -703,6 +743,11 @@ type = PO
 
 [python-newest.library--audioop]
 trans.zh_TW = library/audioop.po
+source_lang = en
+type = PO
+
+[python-newest.library--audit_events]
+trans.zh_TW = library/audit_events.po
 source_lang = en
 type = PO
 
@@ -931,6 +976,16 @@ trans.zh_TW = library/development.po
 source_lang = en
 type = PO
 
+[python-newest.library--devmode]
+trans.zh_TW = library/devmode.po
+source_lang = en
+type = PO
+
+[python-newest.library--dialog]
+trans.zh_TW = library/dialog.po
+source_lang = en
+type = PO
+
 [python-newest.library--difflib]
 trans.zh_TW = library/difflib.po
 source_lang = en
@@ -953,11 +1008,6 @@ type = PO
 
 [python-newest.library--doctest]
 trans.zh_TW = library/doctest.po
-source_lang = en
-type = PO
-
-[python-newest.library--dummy_threading]
-trans.zh_TW = library/dummy_threading.po
 source_lang = en
 type = PO
 
@@ -1036,8 +1086,8 @@ trans.zh_TW = library/email.po
 source_lang = en
 type = PO
 
-[python-newest.library--email_util]
-trans.zh_TW = library/email.util.po
+[python-newest.library--email_utils]
+trans.zh_TW = library/email.utils.po
 source_lang = en
 type = PO
 
@@ -1156,6 +1206,11 @@ trans.zh_TW = library/glob.po
 source_lang = en
 type = PO
 
+[python-newest.library--graphlib]
+trans.zh_TW = library/graphlib.po
+source_lang = en
+type = PO
+
 [python-newest.library--grp]
 trans.zh_TW = library/grp.po
 source_lang = en
@@ -1243,6 +1298,11 @@ type = PO
 
 [python-newest.library--imp]
 trans.zh_TW = library/imp.po
+source_lang = en
+type = PO
+
+[python-newest.library--importlib_metadata]
+trans.zh_TW = library/importlib.metadata.po
 source_lang = en
 type = PO
 
@@ -1336,11 +1396,6 @@ trans.zh_TW = library/lzma.po
 source_lang = en
 type = PO
 
-[python-newest.library--macpath]
-trans.zh_TW = library/macpath.po
-source_lang = en
-type = PO
-
 [python-newest.library--mailbox]
 trans.zh_TW = library/mailbox.po
 source_lang = en
@@ -1408,6 +1463,11 @@ type = PO
 
 [python-newest.library--multiprocessing]
 trans.zh_TW = library/multiprocessing.po
+source_lang = en
+type = PO
+
+[python-newest.library--multiprocessing_shared_memory]
+trans.zh_TW = library/multiprocessing.shared_memory.po
 source_lang = en
 type = PO
 
@@ -1836,6 +1896,26 @@ trans.zh_TW = library/tk.po
 source_lang = en
 type = PO
 
+[python-newest.library--tkinter_colorchooser]
+trans.zh_TW = library/tkinter.colorchooser.po
+source_lang = en
+type = PO
+
+[python-newest.library--tkinter_dnd]
+trans.zh_TW = library/tkinter.dnd.po
+source_lang = en
+type = PO
+
+[python-newest.library--tkinter_font]
+trans.zh_TW = library/tkinter.font.po
+source_lang = en
+type = PO
+
+[python-newest.library--tkinter_messagebox]
+trans.zh_TW = library/tkinter.messagebox.po
+source_lang = en
+type = PO
+
 [python-newest.library--tkinter]
 trans.zh_TW = library/tkinter.po
 source_lang = en
@@ -2051,11 +2131,6 @@ trans.zh_TW = library/xml.sax.po
 source_lang = en
 type = PO
 
-[python-newest.library--xmlrpc]
-trans.zh_TW = library/xmlrpc.po
-source_lang = en
-type = PO
-
 [python-newest.library--xml_sax_reader]
 trans.zh_TW = library/xml.sax.reader.po
 source_lang = en
@@ -2068,6 +2143,11 @@ type = PO
 
 [python-newest.library--xmlrpc_client]
 trans.zh_TW = library/xmlrpc.client.po
+source_lang = en
+type = PO
+
+[python-newest.library--xmlrpc]
+trans.zh_TW = library/xmlrpc.po
 source_lang = en
 type = PO
 
@@ -2093,6 +2173,11 @@ type = PO
 
 [python-newest.library--zlib]
 trans.zh_TW = library/zlib.po
+source_lang = en
+type = PO
+
+[python-newest.library--zoneinfo]
+trans.zh_TW = library/zoneinfo.po
 source_lang = en
 type = PO
 
@@ -2241,6 +2326,11 @@ trans.zh_TW = using/cmdline.po
 source_lang = en
 type = PO
 
+[python-newest.using--editors]
+trans.zh_TW = using/editors.po
+source_lang = en
+type = PO
+
 [python-newest.using--index]
 trans.zh_TW = using/index.po
 source_lang = en
@@ -2338,6 +2428,16 @@ type = PO
 
 [python-newest.whatsnew--3_7]
 trans.zh_TW = whatsnew/3.7.po
+source_lang = en
+type = PO
+
+[python-newest.whatsnew--3_8]
+trans.zh_TW = whatsnew/3.8.po
+source_lang = en
+type = PO
+
+[python-newest.whatsnew--3_9]
+trans.zh_TW = whatsnew/3.9.po
 source_lang = en
 type = PO
 

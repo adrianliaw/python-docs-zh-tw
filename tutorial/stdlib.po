@@ -1,28 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2018, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Adrian Liaw <adrianliaw2000@gmail.com>, 2018
-# Liang-Bo Wang <me@liang2.tw>, 2016
-# woodrow-shen <woodrow.shen@gmail.com>, 2015-2016
-# Jason <chairco@gmail.com>, 2016
-# 文俊 高 <jkw552403@gmail.com>, 2016
+# Wey-Han Liaw <adrianliaw2000@gmail.com>, 2021
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.7\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 18:08+0800\n"
-"PO-Revision-Date: 2018-10-13 15:32+0800\n"
-"Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
-"Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
-"tw)\n"
-"Language: zh_TW\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"PO-Revision-Date: 2017-02-16 23:41+0000\n"
+"Last-Translator: Wey-Han Liaw <adrianliaw2000@gmail.com>, 2021\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/python-doc/"
+"teams/5390/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.2\n"
 
 #: ../../tutorial/stdlib.rst:5
 msgid "Brief Tour of the Standard Library"
@@ -357,11 +355,3 @@ msgid ""
 msgstr ""
 "有數種支援國際化模組 :mod:`gettext`\\ ，\\ :mod:`locale`\\ ，和 :mod:"
 "`codecs` 等套件。 "
-
-#~ msgid ""
-#~ "The :mod:`getopt` module processes *sys.argv* using the conventions of "
-#~ "the Unix :func:`getopt` function.  More powerful and flexible command "
-#~ "line processing is provided by the :mod:`argparse` module."
-#~ msgstr ""
-#~ ":mod:`getopt` 模組使用Unix :func:`getopt` 函式來處理 *sys.argv*。更強大且"
-#~ "具有彈性的命令列處理可由 :mod:`argparse` 模組提供。"

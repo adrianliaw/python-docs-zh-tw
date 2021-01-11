@@ -1,22 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2018, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Liang-Bo Wang <me@liang2.tw>, 2015-2016
+# Wey-Han Liaw <adrianliaw2000@gmail.com>, 2021
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.7\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 18:08+0800\n"
-"PO-Revision-Date: 2018-05-23 16:18+0000\n"
-"Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
-"Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
-"tw)\n"
-"Language: zh_TW\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"PO-Revision-Date: 2017-02-16 23:40+0000\n"
+"Last-Translator: Wey-Han Liaw <adrianliaw2000@gmail.com>, 2021\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/python-doc/"
+"teams/5390/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../tutorial/interpreter.rst:5
@@ -34,6 +37,9 @@ msgid ""
 "local/bin` in your Unix shell's search path makes it possible to start it by "
 "typing the command:"
 msgstr ""
+"Python 直譯器 (interpreter) 如果電腦有提供的話，通常安裝在 :file:`/usr/local/"
+"bin/python3.9`\\ 。把 :file:`/usr/local/bin` 加入至你的 Unix shell 搜尋路徑"
+"中，使得輸入以下的指令至 shell 時，"
 
 #: ../../tutorial/interpreter.rst:21
 msgid ""
@@ -67,7 +73,6 @@ msgstr ""
 "status) 離開。如果上述的做法沒有效，也可以輸入指令 ``quit()`` 離開直譯器。"
 
 #: ../../tutorial/interpreter.rst:36
-#, fuzzy
 msgid ""
 "The interpreter's line-editing features include interactive editing, history "
 "substitution and code completion on systems that support the `GNU Readline "
@@ -79,11 +84,12 @@ msgid ""
 "echoed, command line editing isn't available; you'll only be able to use "
 "backspace to remove characters from the current line."
 msgstr ""
-"直譯器的指令列編輯功能有很多，在支援 readline 函式庫的系統上包含：互動編輯、"
-"歷史取代、指令補完等功能。最快檢查有無支援 readline 的方法為在第一個 Python "
-"提示符後輸入 :kbd:`Control-P`\\ ，如果出現嗶嗶聲，就代表有支援；見附錄 :ref:"
-"`tut-interacting` 介紹相關的快速鍵。如果什麼事沒有發生，或者出現一個 ``^P``"
-"\\ ，就代表並沒有這指令列編輯功能；此時只能使用 backspace 去除該行的字元。"
+"直譯器的指令列編輯功能有很多，在支援 `GNU Readline <https://tiswww.case.edu/"
+"php/chet/readline/rltop.html>`_ 函式庫的系統上包含：互動編輯、歷史取代、指令"
+"補完等功能。最快檢查有無支援 readline 的方法為在第一個 Python 提示符後輸入 :"
+"kbd:`Control-P`\\ ，如果出現嗶嗶聲，就代表有支援；見附錄 :ref:`tut-"
+"interacting` 介紹相關的快速鍵。如果什麼事沒有發生，或者出現一個 ``^P``\\ ，就"
+"代表並沒有這指令列編輯功能；此時只能使用 backspace 去除該行的字元。"
 
 #: ../../tutorial/interpreter.rst:46
 msgid ""

@@ -1,24 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2018, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# KentHsu <luffy1610@gmail.com>, 2016
+# Wey-Han Liaw <adrianliaw2000@gmail.com>, 2021
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.7\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 18:08+0800\n"
-"PO-Revision-Date: 2018-07-27 16:57+0800\n"
-"Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
-"Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
-"tw)\n"
-"Language: zh_TW\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"PO-Revision-Date: 2017-02-16 23:27+0000\n"
+"Last-Translator: Wey-Han Liaw <adrianliaw2000@gmail.com>, 2021\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/python-doc/"
+"teams/5390/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.1.1\n"
 
 #: ../../library/statistics.rst:2
 msgid ":mod:`statistics` --- Mathematical statistics functions"
@@ -29,11 +31,10 @@ msgid "**Source code:** :source:`Lib/statistics.py`"
 msgstr "**Source code:** :source:`Lib/statistics.py`"
 
 #: ../../library/statistics.rst:21
-#, fuzzy
 msgid ""
 "This module provides functions for calculating mathematical statistics of "
 "numeric (:class:`~numbers.Real`-valued) data."
-msgstr "這個模組提供計算數值 (:class:`Real`-valued) 資料的數學統計函式。"
+msgstr ""
 
 #: ../../library/statistics.rst:24
 msgid ""
@@ -74,23 +75,20 @@ msgid "Arithmetic mean (\"average\") of data."
 msgstr "數據的算術平均（平均值）。"
 
 #: ../../library/statistics.rst:46
-#, fuzzy
 msgid ":func:`fmean`"
-msgstr ":func:`mean`"
+msgstr ""
 
 #: ../../library/statistics.rst:46
 msgid "Fast, floating point arithmetic mean."
 msgstr ""
 
 #: ../../library/statistics.rst:47
-#, fuzzy
 msgid ":func:`geometric_mean`"
-msgstr ":func:`median`"
+msgstr ""
 
 #: ../../library/statistics.rst:47
-#, fuzzy
 msgid "Geometric mean of data."
-msgstr "數據中較小的中位數。"
+msgstr ""
 
 #: ../../library/statistics.rst:48
 msgid ":func:`harmonic_mean`"
@@ -137,24 +135,20 @@ msgid ":func:`mode`"
 msgstr ":func:`mode`"
 
 #: ../../library/statistics.rst:53
-#, fuzzy
 msgid "Single mode (most common value) of discrete or nominal data."
-msgstr "離散資料中的眾數（出現次數最多次）。"
+msgstr ""
 
 #: ../../library/statistics.rst:54
-#, fuzzy
 msgid ":func:`multimode`"
-msgstr ":func:`mode`"
+msgstr ""
 
 #: ../../library/statistics.rst:54
-#, fuzzy
 msgid "List of modes (most common values) of discrete or nomimal data."
-msgstr "離散資料中的眾數（出現次數最多次）。"
+msgstr ""
 
 #: ../../library/statistics.rst:55
-#, fuzzy
 msgid ":func:`quantiles`"
-msgstr ":func:`mean`"
+msgstr ""
 
 #: ../../library/statistics.rst:55
 msgid "Divide data into intervals with equal probability."
@@ -679,7 +673,7 @@ msgstr ""
 
 #: ../../library/statistics.rst:569
 msgid "Exceptions"
-msgstr ""
+msgstr "例外"
 
 #: ../../library/statistics.rst:571
 msgid "A single exception is defined:"

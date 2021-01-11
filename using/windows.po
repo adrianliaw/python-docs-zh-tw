@@ -1,23 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2018, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Ching-Lung Chuang, 2015
-# Liang-Bo Wang <me@liang2.tw>, 2015
+# Wey-Han Liaw <adrianliaw2000@gmail.com>, 2018
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.7\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 18:08+0800\n"
-"PO-Revision-Date: 2018-05-23 16:19+0000\n"
-"Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
-"Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
-"tw)\n"
-"Language: zh_TW\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"PO-Revision-Date: 2017-02-16 23:42+0000\n"
+"Last-Translator: Wey-Han Liaw <adrianliaw2000@gmail.com>, 2018\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/python-doc/"
+"teams/5390/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../using/windows.rst:7
@@ -46,8 +48,8 @@ msgstr ""
 msgid ""
 "As specified in :pep:`11`, a Python release only supports a Windows platform "
 "while Microsoft considers the platform under extended support. This means "
-"that Python |version| supports Windows Vista and newer. If you require "
-"Windows XP support then please install Python 3.4."
+"that Python |version| supports Windows 8.1 and newer. If you require Windows "
+"7 support, please install Python 3.8."
 msgstr ""
 
 #: ../../using/windows.rst:29
@@ -89,9 +91,8 @@ msgid "The full installer"
 msgstr ""
 
 #: ../../using/windows.rst:55
-#, fuzzy
 msgid "Installation steps"
-msgstr "安裝步驟"
+msgstr ""
 
 #: ../../using/windows.rst:57
 msgid ""
@@ -199,9 +200,9 @@ msgstr ""
 msgid ""
 "In the latest versions of Windows, this limitation can be expanded to "
 "approximately 32,000 characters. Your administrator will need to activate "
-"the \"Enable Win32 long paths\" group policy, or set the registry value "
-"``HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control"
-"\\FileSystem@LongPathsEnabled`` to ``1``."
+"the \"Enable Win32 long paths\" group policy, or set ``LongPathsEnabled`` to "
+"``1`` in the registry key ``HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet"
+"\\Control\\FileSystem``."
 msgstr ""
 
 #: ../../using/windows.rst:110
@@ -1863,12 +1864,3 @@ msgid ""
 "See `Python for Windows <https://www.python.org/downloads/windows/>`_ for "
 "detailed information about platforms with pre-compiled installers."
 msgstr ""
-
-#~ msgid "Installing Python"
-#~ msgstr "安裝 Python"
-
-#~ msgid "Embedded Distribution"
-#~ msgstr "嵌入式發行版本"
-
-#~ msgid "Other resources"
-#~ msgstr "其他資源"

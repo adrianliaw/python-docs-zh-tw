@@ -1,26 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2018, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Ching-Hao Liu <chinghao.liu@gmail.com>, 2018
-# Liang-Bo Wang <me@liang2.tw>, 2016
-# Liang-Bo Wang <me@liang2.tw>, 2016
+# Wey-Han Liaw <adrianliaw2000@gmail.com>, 2021
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.7\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 18:08+0800\n"
-"PO-Revision-Date: 2018-10-14 10:03+0800\n"
-"Last-Translator: Ching-Hao Liu <chinghao.liu@gmail.com>\n"
-"Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
-"tw)\n"
-"Language: zh_TW\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"PO-Revision-Date: 2017-02-16 23:41+0000\n"
+"Last-Translator: Wey-Han Liaw <adrianliaw2000@gmail.com>, 2021\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/python-doc/"
+"teams/5390/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.1.1\n"
 
 #: ../../tutorial/introduction.rst:5
 msgid "An Informal Introduction to Python"
@@ -488,7 +488,6 @@ msgstr ""
 "::"
 
 #: ../../tutorial/introduction.rst:386
-#, fuzzy
 msgid ""
 "Like strings (and all other built-in :term:`sequence` types), lists can be "
 "indexed and sliced::"
@@ -499,14 +498,13 @@ msgstr ""
 "::"
 
 #: ../../tutorial/introduction.rst:396
-#, fuzzy
 msgid ""
 "All slice operations return a new list containing the requested elements.  "
 "This means that the following slice returns a :ref:`shallow copy "
 "<shallow_vs_deep_copy>` of the list::"
 msgstr ""
 "所有 slice 操作都會回傳一個新的 list 包含要求的元素。這意謂著以下這個 slice "
-"複製了原本 list（淺複製，即 shallow copy）：\n"
+"複製了原本 list（淺複製，即 :ref:`shallow copy`\\ ）：\n"
 "\n"
 "::"
 

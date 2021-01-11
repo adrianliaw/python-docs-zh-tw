@@ -1,29 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2018, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Adrian Liaw <adrianliaw2000@gmail.com>, 2016
-# Ching-Hao Liu <chinghao.liu@gmail.com>, 2018
-# KentHsu <luffy1610@gmail.com>, 2016
-# Liang-Bo Wang <me@liang2.tw>, 2015-2016
-# Liang-Bo Wang <me@liang2.tw>, 2016
-# hsiao yi <hsiaoyi0504@gmail.com>, 2015
+# Wey-Han Liaw <adrianliaw2000@gmail.com>, 2021
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.7\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 18:08+0800\n"
-"PO-Revision-Date: 2018-10-14 09:57+0800\n"
-"Last-Translator: Ching-Hao Liu <chinghao.liu@gmail.com>\n"
-"Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
-"tw)\n"
-"Language: zh_TW\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"PO-Revision-Date: 2017-02-16 23:40+0000\n"
+"Last-Translator: Wey-Han Liaw <adrianliaw2000@gmail.com>, 2021\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/python-doc/"
+"teams/5390/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.1.1\n"
 
 #: ../../tutorial/datastructures.rst:5
 msgid "Data Structures"
@@ -72,13 +69,12 @@ msgstr ""
 "``a.append(x)``。"
 
 #: ../../tutorial/datastructures.rst:43
-#, fuzzy
 msgid ""
 "Remove the first item from the list whose value is equal to *x*.  It raises "
 "a :exc:`ValueError` if there is no such item."
 msgstr ""
-"刪除 list 中第一個值等於 *x* 的元素。若 list 中無此元素則會觸發 "
-"``ValueError``。"
+"刪除 list 中第一個值等於 *x* 的元素。若 list 中無此元素則會觸發 :exc:"
+"`ValueError`。"
 
 #: ../../tutorial/datastructures.rst:50
 msgid ""
@@ -256,7 +252,6 @@ msgid "which is more concise and readable."
 msgstr "這樣更簡潔和易讀。"
 
 #: ../../tutorial/datastructures.rst:225
-#, fuzzy
 msgid ""
 "A list comprehension consists of brackets containing an expression followed "
 "by a :keyword:`!for` clause, then zero or more :keyword:`!for` or :keyword:`!"
@@ -266,10 +261,10 @@ msgid ""
 "lists if they are not equal::"
 msgstr ""
 "一個 list comprehension 的組成，是包含著一個 expression（運算式）和一個 :"
-"keyword:`for` 語句，再接著零個或多個 :keyword:`for` 或 :keyword:`if` 語句的一"
-"對方括號。結果會是一個新的串列，內容是在接著的 :keyword:`for` 和 :keyword:"
-"`if` 語句的環境下，執行前面 expression 的結果。例如，這個 list comprehension "
-"是由兩個串列中互相不同的元素組合所組成：\n"
+"keyword:`!for` 語句，再接著零個或多個 :keyword:`!for` 或 :keyword:`!if` 語句"
+"的一對方括號。結果會是一個新的串列，內容是在接著的 :keyword:`!for` 和 :"
+"keyword:`!if` 語句的環境下，執行前面 expression 的結果。例如，這個 list "
+"comprehension 是由兩個串列中互相不同的元素組合所組成：\n"
 "\n"
 "::"
 
@@ -364,12 +359,10 @@ msgid ""
 msgstr "關於星號的更多細節，請參考 :ref:`tut-unpacking-arguments` 。"
 
 #: ../../tutorial/datastructures.rst:341
-#, fuzzy
 msgid "The :keyword:`!del` statement"
-msgstr ":keyword:`del` 陳述式"
+msgstr ":keyword:`!del` 陳述式"
 
 #: ../../tutorial/datastructures.rst:343
-#, fuzzy
 msgid ""
 "There is a way to remove an item from a list given its index instead of its "
 "value: the :keyword:`del` statement.  This differs from the :meth:`pop` "
@@ -378,9 +371,9 @@ msgid ""
 "earlier by assignment of an empty list to the slice).  For example::"
 msgstr ""
 "有一個方法可以藉由索引而不是值來刪除 list 中的項： :keyword:`del` 陳述式。這"
-"和 :meth:`pop` 方法傳回一個值不同， :keyword:`del` 陳述式可以用來刪除 list 中"
-"的片段或者清空整個 list（我們之前藉由指派一個空的 list 給想刪除的片段來完成這"
-"件事）。例如：\n"
+"和 :meth:`pop` 方法傳回一個值不同， :keyword:`!del` 陳述式可以用來刪除 list "
+"中的片段或者清空整個 list（我們之前藉由指派一個空的 list 給想刪除的片段來完成"
+"這件事）。例如：\n"
 "\n"
 "::"
 
@@ -775,23 +768,21 @@ msgstr ""
 "::"
 
 #: ../../tutorial/datastructures.rst:693
-#, fuzzy
 msgid ""
 "Note that in Python, unlike C, assignment inside expressions must be done "
 "explicitly with the :ref:`walrus operator <why-can-t-i-use-an-assignment-in-"
 "an-expression>` ``:=``. This avoids a common class of problems encountered "
 "in C programs: typing ``=`` in an expression when ``==`` was intended."
 msgstr ""
-"注意， Python 不像 C 語言，在表達式裡進行指派是不行的。 C 語言的程式設計師可"
-"能會抱怨這件事，但這樣做避免了在 C 語言裡常見的一種問題：想要打 ``==`` 卻在表"
-"達式裡輸入 ``=`` 。"
+"注意， Python 不像 C 語言，在表達式裡進行指派必須要明確使用 :ref:`walrus "
+"operator<why-can-t-i-use-an-assignment-in-an-expression>` ``:=``。 這樣做避免"
+"了在 C 語言裡常見的一種問題：想要打 ``==`` 卻在表達式裡輸入 ``=`` 。"
 
 #: ../../tutorial/datastructures.rst:703
 msgid "Comparing Sequences and Other Types"
 msgstr "序列和其他資料結構之比較"
 
 #: ../../tutorial/datastructures.rst:704
-#, fuzzy
 msgid ""
 "Sequence objects typically may be compared to other objects with the same "
 "sequence type. The comparison uses *lexicographical* ordering: first the "
@@ -806,7 +797,7 @@ msgid ""
 "order individual characters. Some examples of comparisons between sequences "
 "of the same type::"
 msgstr ""
-"序列物件可以拿來和其他相同型態的物件做比較。這種比較使用詞典式順序 "
+"序列物件通常可以拿來和其他相同型態的物件做比較。這種比較使用詞典式順序 "
 "(*lexicographical* ordering) ：首先比較各自最前面的那項，若不相同，便可決定結"
 "果，若相同，則比較下ㄧ項，以此類推，直到其中一個序列完全用完。如果被拿出來比"
 "較的兩項本身又是相同的序列型態，則詞典式順序的比較會遞迴處理。如果兩個序列所"
@@ -839,12 +830,3 @@ msgid ""
 msgstr ""
 "其他語言可能可以回傳可變的物件並允許方法串連，例如 ``d->insert(\"a\")-"
 ">remove(\"b\")->sort();`` 。"
-
-#~ msgid ""
-#~ "Calling ``d.keys()`` will return a :dfn:`dictionary view` object.  It "
-#~ "supports operations like membership test and iteration, but its contents "
-#~ "are not independent of the original dictionary -- it is only a *view*."
-#~ msgstr ""
-#~ "使用 ``d.keys()`` 會回傳一個 :dfn:`dictionary view` 物件。它支援一些操作像"
-#~ "是成員測試和迭代，但它的內容並非和原本的 dict 互相獨立 -- 它僅僅是個 "
-#~ "*view* 。"

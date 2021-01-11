@@ -1,18 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2018, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Wey-Han Liaw <adrianliaw2000@gmail.com>, 2018
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.7\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 18:08+0800\n"
-"PO-Revision-Date: 2018-07-15 18:56+0800\n"
-"Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
-"tw)\n"
-"Language: zh_TW\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"PO-Revision-Date: 2018-04-08 04:04+0000\n"
+"Last-Translator: Wey-Han Liaw <adrianliaw2000@gmail.com>, 2018\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/python-doc/"
+"teams/5390/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../extending/newtypes_tutorial.rst:7
@@ -435,8 +442,8 @@ msgid ""
 "``first`` member, so it could be any kind of object.  It could have a "
 "destructor that causes code to be executed that tries to access the "
 "``first`` member; or that destructor could release the :term:`Global "
-"interpreter Lock` and let arbitrary code run in other threads that accesses "
-"and modifies our object."
+"interpreter Lock <GIL>` and let arbitrary code run in other threads that "
+"accesses and modifies our object."
 msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:422
@@ -828,7 +835,7 @@ msgstr ""
 
 #: ../../extending/newtypes_tutorial.rst:892
 msgid "Footnotes"
-msgstr ""
+msgstr "註解"
 
 #: ../../extending/newtypes_tutorial.rst:893
 msgid ""

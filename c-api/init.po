@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2018, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.7\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 18:08+0800\n"
-"PO-Revision-Date: 2018-05-23 14:06+0000\n"
-"Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
-"Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
-"tw)\n"
-"Language: zh_TW\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"PO-Revision-Date: 2017-02-16 17:36+0000\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/python-doc/"
+"teams/5390/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../c-api/init.rst:8
@@ -990,7 +990,7 @@ msgstr ""
 #: ../../c-api/init.rst:832
 msgid ""
 "This data structure represents the state of a single thread.  The only "
-"public data member is :c:type:`PyInterpreterState \\*`:attr:`interp`, which "
+"public data member is :attr:`interp` (:c:type:`PyInterpreterState *`), which "
 "points to this thread's interpreter state."
 msgstr ""
 
@@ -1864,7 +1864,7 @@ msgid ""
 "(TLS) which wraps the underlying native TLS implementation to support the "
 "Python-level thread local storage API (:class:`threading.local`).  The "
 "CPython C level APIs are similar to those offered by pthreads and Windows: "
-"use a thread key and functions to associate a :c:type:`void\\*` value per "
+"use a thread key and functions to associate a :c:type:`void*` value per "
 "thread."
 msgstr ""
 
@@ -1883,9 +1883,9 @@ msgstr ""
 #: ../../c-api/init.rst:1632
 msgid ""
 "None of these API functions handle memory management on behalf of the :c:"
-"type:`void\\*` values.  You need to allocate and deallocate them yourself. "
-"If the :c:type:`void\\*` values happen to be :c:type:`PyObject\\*`, these "
-"functions don't do refcount operations on them either."
+"type:`void*` values.  You need to allocate and deallocate them yourself. If "
+"the :c:type:`void*` values happen to be :c:type:`PyObject*`, these functions "
+"don't do refcount operations on them either."
 msgstr ""
 
 #: ../../c-api/init.rst:1640
@@ -1990,14 +1990,14 @@ msgstr ""
 
 #: ../../c-api/init.rst:1730
 msgid ""
-"Return a zero value to indicate successfully associating a :c:type:`void\\*` "
+"Return a zero value to indicate successfully associating a :c:type:`void*` "
 "value with a TSS key in the current thread.  Each thread has a distinct "
-"mapping of the key to a :c:type:`void\\*` value."
+"mapping of the key to a :c:type:`void*` value."
 msgstr ""
 
 #: ../../c-api/init.rst:1737
 msgid ""
-"Return the :c:type:`void\\*` value associated with a TSS key in the current "
+"Return the :c:type:`void*` value associated with a TSS key in the current "
 "thread.  This returns ``NULL`` if no value is associated with the key in the "
 "current thread."
 msgstr ""
@@ -2026,18 +2026,3 @@ msgid ""
 "Due to the compatibility problem noted above, this version of the API should "
 "not be used in new code."
 msgstr ""
-
-#~ msgid "0"
-#~ msgstr "0"
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid "4"
-#~ msgstr "4"
-
-#~ msgid "8"
-#~ msgstr "8"

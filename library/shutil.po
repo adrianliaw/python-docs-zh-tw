@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2018, Python Software Foundation
+# Copyright (C) 2001-2021, Python Software Foundation
 # This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Translators:
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python 3.7\n"
+"Project-Id-Version: Python 3.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-20 18:08+0800\n"
-"PO-Revision-Date: 2018-05-23 16:10+0000\n"
-"Last-Translator: Adrian Liaw <adrianliaw2000@gmail.com>\n"
-"Language-Team: Chinese - TAIWAN (https://github.com/python/python-docs-zh-"
-"tw)\n"
-"Language: zh_TW\n"
+"POT-Creation-Date: 2021-01-01 05:02+0000\n"
+"PO-Revision-Date: 2017-02-16 23:26+0000\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/python-doc/"
+"teams/5390/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../library/shutil.rst:2
@@ -215,9 +215,9 @@ msgstr ""
 #: ../../library/shutil.rst:160
 msgid ""
 "Copies the file *src* to the file or directory *dst*.  *src* and *dst* "
-"should be strings.  If *dst* specifies a directory, the file will be copied "
-"into *dst* using the base filename from *src*.  Returns the path to the "
-"newly created file."
+"should be :term:`path-like objects <path-like object>` or strings.  If *dst* "
+"specifies a directory, the file will be copied into *dst* using the base "
+"filename from *src*.  Returns the path to the newly created file."
 msgstr ""
 
 #: ../../library/shutil.rst:165
@@ -440,7 +440,7 @@ msgstr ""
 #: ../../library/shutil.rst:351
 msgid ""
 "If *copy_function* is given, it must be a callable that takes two arguments "
-"*src* and *dst*, and will be used to copy *src* to *dest* if :func:`os."
+"*src* and *dst*, and will be used to copy *src* to *dst* if :func:`os."
 "rename` cannot be used.  If the source is a directory, :func:`copytree` is "
 "called, passing it the :func:`copy_function`. The default *copy_function* "
 "is :func:`copy2`.  Using :func:`~shutil.copy` as the *copy_function* allows "
