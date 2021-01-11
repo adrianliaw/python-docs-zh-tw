@@ -39,23 +39,25 @@ jobs:
     - name: Run tx push
       run: tx push -t --language zh_TW --parallel
     - name: Run tx pull
-      run: tx pull --force --language zh_TW --parallel
-    - name: Run make push
+      run: |
+        tx pull --force --language zh_TW --parallel
+        powrap ./**/*.po
+    - name: Run git push
       run: |
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git config user.name "github-actions[bot]"
         if [ ! "git status -s | egrep '\.po|\.tx/config'" ]; then
-          echo "Nothing to commit";                                           \
-          exit 0;                                                             \
-        else                                                                    \
-          git add *.po **/*.po .tx/config;                                    \
-          git commit -m 'Update translations from Transifex';                 \
-          if [ $(GITHUB_TOKEN) != "" ]; then                                  \
-            header="$(echo -n token:"$(GITHUB_TOKEN)" | base64)";           \
-            git -c http.extraheader="AUTHORIZATION: basic $(header)" push;  \
-          else                                                                \
-            git push;                                                       \
-          fi;                                                                 \
+          echo "Nothing to commit"
+          exit 0
+        else
+          git add *.po **/*.po .tx/config
+          git commit -m 'Update translations from Transifex'
+          if [ "$GITHUB_TOKEN" != "" ]; then
+            header="$(echo -n token:"$GITHUB_TOKEN" | base64)"
+            git -c http.extraheader="AUTHORIZATION: basic $(header)" push
+          else
+            git push
+          fi
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
